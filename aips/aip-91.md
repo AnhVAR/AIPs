@@ -66,6 +66,18 @@ If this proposal is not accepted, the inconsistency in testing and updating of A
 | 2   |           |       |                  | :x: FAIL |
 | 3   |           |       |                  | :x: UNIMPL |
 
+## Rationale for AI Assistance
+
+The use of AI in this project is a crucial aspect that can significantly enhance the efficiency, accuracy, and maintainability of the Aptos SDK E2E test suite. Here are the key reasons why AI assistance is necessary:
+
+- Test Case Generation: AI can help automate the process of generating test cases based on the existing TypeScript SDK test cases. By training an AI model on the structure and patterns of the TypeScript tests, it can learn to generate similar test cases for other SDKs, reducing the manual effort required and ensuring consistency across all SDKs.
+Test Script Generation: Creating test scripts for each SDK can be a time-consuming and error-prone task. AI-assisted tools can analyze the common test case table and generate initial test script templates for each SDK. These templates can then be reviewed and refined by developers, saving significant development time and ensuring that the test scripts adhere to the desired structure and logic.
+- Test Maintenance: As the Aptos platform evolves and new features are added, the test cases and scripts need to be updated accordingly. AI can help identify the impact of changes on existing tests and suggest necessary updates to maintain the validity and coverage of the test suite. This can greatly reduce the manual effort required to keep the tests up-to-date and ensure that the SDKs remain compatible with the latest changes.
+- Test Optimization: AI algorithms can analyze the test results and identify patterns or trends that may indicate potential issues or areas for improvement. By leveraging machine learning techniques, AI can suggest optimizations to the test cases, such as prioritizing critical test scenarios, identifying redundant or low-value tests, and proposing new test cases to cover edge cases or uncovered functionality.
+- Continuous Improvement: As the E2E test suite grows and evolves, AI can continuously learn from the test results and developer feedback to refine its test case and script generation capabilities. Over time, the AI models can become more accurate and efficient, adapting to the specific needs and patterns of the Aptos SDK ecosystem.
+
+By incorporating AI assistance into the Aptos SDK E2E test suite, we can significantly streamline the test development and maintenance process, reduce human error, and ensure a high level of consistency and quality across all SDKs. This will ultimately lead to a more robust and reliable testing infrastructure that can keep pace with the rapid development of the Aptos platform.
+
 ### Timeline
 
 - Implementation effort: Approximately 3 months
